@@ -5,6 +5,11 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footerParentDiv">
+      <img src="https://statics.olx.in/external/base/img/phone-app.webp" className='olxfooterimg' />
+      <h2 className='olxfootertxt'>TRY THE OLX APP</h2>
+      <h5 className='olxfootertxt2'> Buy, sell and find just about anything using the app on your mobile.</h5>
+      <img className='olxfooterlogo' src="https://statics.olx.in/external/base/img/appstore_2x.webp" alt="" />
+      <img className='olxfooterlogo' src="https://statics.olx.in/external/base/img/playstore_2x.webp" alt="" /><span >Get your app today</span>
       <div className="content">
         <div>
           <div className="heading">

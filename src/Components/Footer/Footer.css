@@ -1,5 +1,6 @@
 .footerParentDiv {
-  width: 100vw;
+  
+  overflow-x: hidden;
 }
 .footerParentDiv .content {
   display: flex;
@@ -24,4 +25,21 @@
 
 .footerParentDiv .footer p {
   margin: 0;
+}
+.olxfooterimg{
+  margin-top: 3rem;
+  margin-left: 11rem;
+}
+.olxfootertxt{
+  margin-left: 50rem;
+  margin-top: -12rem;
+  font-weight: bolder;
+}
+.olxfootertxt2{
+  margin-top: 1rem;
+  margin-left: 50rem;
+  width: 25rem;
+}
+.olxfooterlogo{
+  margin-left: 50rem;
 }

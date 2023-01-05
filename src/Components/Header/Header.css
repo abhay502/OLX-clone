@@ -4,13 +4,15 @@
   position: fixed;
   width: 100vw;
   z-index: 999;
+  
 }
 
-.headerChildDiv {
+.headerChildDiv { 
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .placeSearch {
@@ -104,16 +106,22 @@
   text-overflow: ellipsis;
   font-weight: bolder;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .loginPage hr {
   margin: 0;
   background-color: black;
   height: 2px;
+  cursor: pointer;
 }
 
 .loginPage a{
   text-decoration: none;
+  cursor: pointer;
+}
+.loginPage{
+  cursor: pointer;
 }
 
 .sellMenu {
